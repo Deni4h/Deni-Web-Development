@@ -1,0 +1,75 @@
+/* xl */
+
+@media screen and (max-width: 950px) {
+    .home {
+        margin-top: 10%;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .template .container-temp {
+        padding: 1rem 0;
+    }
+}
+
+
+/* mobile */
+@media screen and (max-width: 480px) {
+    .home {
+        margin-top: 16%;
+    }
+    
+    .home .desc h3 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .home .desc p {
+        font-size: 0.9rem;
+        margin: 0 4%;
+        text-align: justify;
+    }
+
+    .home .desc a {
+        padding: 12px 10px;
+        margin-left: 5%;
+    }
+
+    .home img {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    /* template */
+    .template h2 {
+        font-size: 1.7rem;
+    }
+
+    .template p {
+        font-size: 1rem;
+    }
+
+    .template .container-temp .card {
+        width: 20rem;
+    }
+
+    .template .container-temp .card .card-image img {
+        width: 100%;
+    }
+
+    .template a {
+        width: 40%;
+    }
+
+    .service p {
+        font-size: 0.8rem;
+        margin: 0 5px;
+    }
+
+    .cara .cara2 h4 {
+        font-size: 0.9rem;
+        list-style: none;
+        text-align: start;
+    }
+}
